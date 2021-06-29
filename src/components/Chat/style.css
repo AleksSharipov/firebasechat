@@ -1,0 +1,75 @@
+.chat {
+  height: 70vh;
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__list {
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.chat__form {
+  margin-top: auto;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+
+.chat__input {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 50px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  border-radius: 5px;
+}
+
+.chat__btn {
+  margin-left: 15px;
+  max-width: 100px;
+  width: 100%;
+  border: 1px solid rgb(71, 221, 71);
+  border-radius: 5px;
+  background-color: rgb(71, 221, 71);
+  cursor: pointer;
+}
+
+.chat__btn:hover {
+  background-color: rgb(46, 247, 46);
+}
+
+.chat__msg {
+  list-style: none;
+  max-width: 45%;
+  min-height: 50px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__mymsg {
+  background-color: rgba(73, 179, 3, 0.432);
+  margin-left: auto;
+}
+
+.chat__anymsg {
+  background-color: rgba(0, 204, 255, 0.493);
+}
+
+.chat__nick {
+  /* margin-left: auto; */
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: blue;
+}
