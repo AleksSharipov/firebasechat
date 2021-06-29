@@ -36,12 +36,6 @@ export default function Chat(){
   }, [])
 
 
-  useEffect(()=>{
-    const fetchData = async () =>{
-      setNickname(localStorage.getItem('nickname'));
-    };
-    fetchData();
-  }, [])
 
   const submitMessage = (e) => {
     e.preventDefault();
