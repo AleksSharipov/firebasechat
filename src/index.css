@@ -11,6 +11,5 @@ code {
 }
 
 @import url('./components/App/App.css');
-@import url('./components/Navbar/style.css');
 @import url('./components/Login/style.css');
 @import url('./components/Chat/style.css');
